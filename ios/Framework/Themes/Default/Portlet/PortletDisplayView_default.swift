@@ -11,9 +11,9 @@
 * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
 * details.
 */
-
 import UIKit
 import WebKit
+
 
 @objc(PortletDisplayView_default)
 open class PortletDisplayView_default: BaseScreenletView, PortletDisplayViewModel {

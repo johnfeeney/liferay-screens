@@ -13,9 +13,11 @@
 */
 import UIKit
 
+
 /// The PortletDisplayScreenletDelegate protocol defines some methods that you use to
 /// manage the PortletDisplayScreenlet events. All of them are optional.
-@objc public protocol PortletDisplayScreenletDelegate: BaseScreenletDelegate {
+@objc(PortletDisplayScreenletDelegate)
+public protocol PortletDisplayScreenletDelegate: BaseScreenletDelegate {
 
 	///  Called when the page is loaded.
 	///
